@@ -199,16 +199,53 @@ The branch manager has full administrative control over users, data, and system 
 
 
 
-## 🚀 Non-Functional Requirements
+## 🛠️ Non-Functional Requirements (NFRs)
 
-| Requirement        | Description                                                 |
-|--------------------|-------------------------------------------------------------|
-| 💨 Performance      | 300 concurrent users, lazy loading, optimized DB queries    |
-| 🔐 Security         | JWT, upload tokens, input validation                        |
-| 💾 Storage          | Compressed Cloudinary uploads                               |
-| 🛠️ Maintainability  | Modular clean code with NestJS and React                    |
-| 🔄 Scalability      | Ready for multi-branch expansion                            |
-| 📱 Mobile Ready     | Responsive RTL Arabic interface                             |
+### 1. 🔒 Security
+- Role-based access control for managers, receptionists, pharmacists, public relations, and activity officers.
+- Charities can only view or modify data shared with them.
+- All operations should be logged (add, update, deactivate).
+- Sensitive information (e.g., phone numbers, addresses, health info) must be encrypted.
+
+### 2. 🧩 Scalability
+- Support for multiple charities, hundreds of beneficiaries, employees, and volunteers.
+- Should handle high volumes of distress reports and task assignments efficiently.
+
+### 3. 💾 Availability & Reliability
+- Ensure 99.9% system uptime.
+- Reliable data access and availability for real-time work.
+- Daily backups of all important data.
+
+### 4. 📱 Usability
+- Clean and intuitive UI for employees and volunteers.
+- Arabic language support.
+- Responsive design for mobile and tablet access.
+
+### 5. ⚡ Performance
+- Instant search results for beneficiaries and volunteers.
+- Dashboards and reports should load in under 2 seconds.
+
+### 6. 📊 Maintainability
+- Modular codebase for easy updates and future enhancements.
+- Admin can easily update Excel target structure (تارجيت العاشر).
+
+### 7. 🔄 Interoperability
+- Support for Excel imports/exports.
+- Integration with third-party tools (e.g., Google Maps, WhatsApp).
+
+### 8. 🧪 Testability
+- Automated testing for core features (e.g., distress calls, beneficiary updates, task assignments).
+- Manual QA before production deployments.
+
+### 9. ⏱️ Response Time & Real-Time Operations
+- Dashboard updates, distress calls, and task statuses should reflect changes in real time or near real time.
+
+### 10. 🧾 Auditability
+- Track and log all key operations including:
+  - Who performed the action
+  - When it was performed
+  - What was changed
+
 
 ---
 
