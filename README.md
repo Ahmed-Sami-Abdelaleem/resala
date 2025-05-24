@@ -30,7 +30,7 @@
 
 To digitize and streamline the management of volunteer activities, beneficiaries, and task assignments for **Resala فرع العاشر من رمضان**. The platform will serve internal users (admins and volunteers) with features such as:
 
-- User management
+- User management include (managers, employee, volunteers, external organization)
 - Task assignments with image proof
 - Beneficiary documentation
 
@@ -51,7 +51,7 @@ To digitize and streamline the management of volunteer activities, beneficiaries
 - Multi-branch support
 
 ### 📄 Deliverables
-- MVP in 2–3 months
+- MVP in 6–7 months
 - Full admin panel, volunteer portal, and backend API
 - Arabic RTL responsive UI
 
@@ -61,6 +61,7 @@ To digitize and streamline the management of volunteer activities, beneficiaries
 
 | Layer        | Technology            | Notes                                  |
 |--------------|------------------------|----------------------------------------|
+| UI & UX      | Figma                  | Responsive, mobile-first design        |
 | Frontend     | React + Tailwind CSS   | Responsive, mobile-first design        |
 | Backend      | NestJS (TypeScript)    | REST API, modular architecture         |
 | Database     | PostgreSQL (via Railway)| Hosted DB                             |
@@ -99,32 +100,104 @@ To digitize and streamline the management of volunteer activities, beneficiaries
 
 ---
 
-## ⚙️ Functional Requirements
+## 📋 Functional Requirements
 
-### 👤 User Management (Admin)
-- Create/edit/deactivate volunteer accounts
-- Upload 1 profile image per user
-- Assign roles (admin / volunteer)
+### 👤 Manager of Resala (فرع العاشر من رمضان)
 
-### 🧾 Task Management (Admin & Volunteer)
-- Admin creates tasks: title, description, start/end, image
-- Volunteer marks tasks as done + uploads proof image
-- Admin verifies completed tasks
+The branch manager has full administrative control over users, data, and system oversight.
 
-### 🧍 Beneficiary Management (Admin)
-- Store: full name, gender, age, case type, area
-- Upload 2–5 images per beneficiary
+#### 🔧 Employee Management
+- Create and manage employees:
+  - Receptionist
+  - Pharmacist
+  - Public Relations
+  - Activity Officer
+- Update employee details.
+- Monitor:
+  - Work performance
+  - Financial contributions
+  - General system activity
 
-### 🏠 Auth & Access
-- JWT login (secure)
-- Volunteers see only their tasks
-- Admins see and control everything
+#### 🤝 Inter-Charity Collaboration
+- View, add, and update **shared beneficiary data** from other charities.
+- Monitor performance of other charities within the ecosystem.
 
-### 📊 Admin Dashboard
-- KPIs: active users, task statuses, beneficiaries
-- Visuals: charts, filters, search by name/date/status
+#### 👥 Beneficiary Oversight
+- Add, edit, and deactivate beneficiaries.
+- Track which charity the beneficiary belongs to.
+- View an overview of:
+  - Needs of own and shared beneficiaries
+  - Deficits in food, materials, and medicine
+
+#### 💰 Income & Inventory
+- Add and manage incoming donations:
+  - Food
+  - Materials
+
+#### 📊 System Monitoring
+- Dashboards for:
+  - Project traffic and progress
+  - Number of employees and volunteers
+
+#### 💬 Feedback & Polling
+- Monitor feedback between employees and volunteers.
+- Review user suggestions.
+- Create polls to gather public opinion.
 
 ---
+
+### 🧑‍💼 Receptionist
+
+- Works on-site at the branch.
+- Manages Beneficiaries:
+  - Add / update / deactivate
+  - Check if they belong to another charity
+- Manages Volunteers:
+  - Add new volunteers
+  - Deactivate or monitor them
+- Handles Distress Call Reports:
+  - Add with image, address, phone number, and description
+- Linked to Excel system: **تارجيت العاشر** *(details provided later)*
+
+---
+
+### 💊 Pharmacist
+
+- Maintains **medical inventory**.
+- Distributes medication to beneficiaries as needed.
+- Search for beneficiaries using mobile numbers.
+
+---
+
+### 📢 Activity Officer
+
+- Sees and validates **distress call reports**.
+- Prioritizes and converts them into tasks.
+- Assigns tasks to volunteers according to activity and skill.
+- Evaluates task results and assigns **custom points** based on:
+
+  - **الالتزام** (Commitment): Attendance & participation
+  - **الإنجاز** (Achievement): Number & quality of completed tasks
+  - **روح الفريق** (Team Spirit): Teamwork and cooperation
+  - **المبادرة** (Initiative): New ideas and improvement suggestions
+
+- Participates in managing the **Volunteer Reward System**.
+
+---
+
+### 🧑‍🤝‍🧑 Volunteers
+
+- Apply through a submission form.
+- Receptionist approves or contacts them.
+- Once enrolled in an activity:
+  - Activity Officer sees volunteer data and skills.
+  - Tasks assigned based on role and capacity.
+- Gain points for completed tasks and engagement.
+- Participate in a gamified **Reward System**.
+
+---
+
+
 
 ## 🚀 Non-Functional Requirements
 
