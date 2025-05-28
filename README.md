@@ -51,7 +51,7 @@ To digitize and streamline the management of volunteer activities, beneficiaries
 - Multi-branch support
 
 ### 📄 Deliverables
-- MVP in 6–7 months
+- MVP in 7–8 months => 2 for build team & data gatharing & Analysis ---- 3~ for design System & database & UI&UX ---- 3~ implementation & tesing --- finaly we are expecting the deploment in  november 2025
 - Full admin panel, volunteer portal, and backend API
 - Arabic RTL responsive UI
 
