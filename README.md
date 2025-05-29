@@ -257,6 +257,12 @@ The branch manager has full administrative control over users, data, and system 
 
 ---
 
+## UML drigrams 
+
+--
+## use cese description 
+![Image](https://github.com/user-attachments/assets/621e2d05-510f-4469-875f-4900a4d8f16a)
+
 ## ⚙️ Installation
 
 ```bash
