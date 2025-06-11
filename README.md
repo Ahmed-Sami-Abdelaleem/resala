@@ -252,7 +252,7 @@ The branch manager has full administrative control over users, data, and system 
 ## UML drigrams 
 
 
-## use cese description 
+## use cese digram 
 ![Image](https://github.com/user-attachments/assets/621e2d05-510f-4469-875f-4900a4d8f16a)
 
 ## Use Case Descriptions Table
@@ -277,8 +277,9 @@ The branch manager has full administrative control over users, data, and system 
 | UC17        | Approve External Charity (linked)    | Branch Manager                    | Verify and approve third-party charities requesting shared access                                   | *Not fully described in original*, but referenced in UC6                                                                                                                            | A1: Fraud Suspected → Flags for manual review.                                                                                                                                                                                                                                                                                                                                      | UC18        | Generate Aid Statistics      | Admin, Receptionist   | Generate statistical reports on aid distribution, types, and frequency     | 1. Actor logs into dashboard.<br>2. Selects "Statistics" section.<br>3. Chooses time range, aid type, or beneficiary group.<br>4. System generates charts/tables summarizing data.<br>5. Actor can export or print report.             | A1: No Data for Selected Range → System notifies "No records found".<br>A2: Permission Denied (non-admins) → System restricts access to some statistics.<br>A3: System Error → Displays error and logs for admin review.                                     |
 | UC19        | Generate Donor Report        | Admin                 | Generate a report summarizing donations made by a specific donor           | 1. Admin logs in.<br>2. Opens "Donor Reports".<br>3. Searches for donor by name or ID.<br>4. Selects donor and time range.<br>5. System displays donations, aid impact, and remaining balance (if any).<br>6. Admin exports report. | A1: Donor Not Found → System suggests similar names or asks to recheck input.<br>A2: No Donations in Selected Period → System displays message.<br>A3: Export Failed → System suggests retry or alternate format (e.g., CSV if PDF fails).                     |
 
+## class digram 
+![Image](https://github.com/user-attachments/assets/458e7455-77dc-4169-a779-d8c4281145dd)
 ---
-
 
 ---
 
