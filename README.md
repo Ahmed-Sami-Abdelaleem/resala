@@ -1,5 +1,5 @@
 # 📦 Resala Branch Management Platform (فرع العاشر من رمضان)
-![Image description](https://yt3.ggpht.com/-qKEv-sRWRZI/AAAAAAAAAAI/AAAAAAAAAAA/UlZRyaBRaZY/s900-c-k-no-mo-rj-c0xffffff/photo.jpg)
+<img src="https://yt3.ggpht.com/-qKEv-sRWRZI/AAAAAAAAAAI/AAAAAAAAAAA/UlZRyaBRaZY/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" alt="Profile Photo" width="200" height="200">
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-1.0.0-green.svg)]()
 [![Build Status](https://img.shields.io/travis/user/repo/master.svg)](https://travis-ci.org/user/repo)
