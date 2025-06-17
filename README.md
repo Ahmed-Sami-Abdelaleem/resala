@@ -5,7 +5,7 @@
 [![Build Status](https://img.shields.io/travis/user/repo/master.svg)](https://travis-ci.org/user/repo)
 
 > A volunteer & beneficiary management system for **Resala Charity** - digitizing internal operations for the 10th of Ramadan branch. Built with ❤️ in Egypt.
-<img src="https://yt3.ggpht.com/-qKEv-sRWRZI/AAAAAAAAAAI/AAAAAAAAAAA/UlZRyaBRaZY/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" alt="Profile Photo" width="600" height="300">
+<img src="https://yt3.ggpht.com/-qKEv-sRWRZI/AAAAAAAAAAI/AAAAAAAAAAA/UlZRyaBRaZY/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" alt="resala logo" width="800" height="400">
 ---
 
 ## 📚 Table of Contents
