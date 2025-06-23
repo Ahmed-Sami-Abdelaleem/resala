@@ -280,6 +280,10 @@ The branch manager has full administrative control over users, data, and system 
 ## class digram 
 ![Image](https://github.com/user-attachments/assets/458e7455-77dc-4169-a779-d8c4281145dd)
 ---
+## System design 
+---
+![Image](https://github.com/user-attachments/assets/8d9dcc0e-3311-4ad9-8730-68a064dba9e6)
+---
 ## ERD 
 ![Image](https://github.com/user-attachments/assets/7789957e-3dc3-4bc6-8c58-bf04f6be2266)
 ---
