@@ -282,7 +282,7 @@ The branch manager has full administrative control over users, data, and system 
 ---
 ## System design 
 ---
-![Image](https://github.com/user-attachments/assets/8d9dcc0e-3311-4ad9-8730-68a064dba9e6)
+![Image](https://github.com/user-attachments/assets/0fc4e1f6-50db-414f-96f6-e30a693d7bee)
 ---
 ## ERD 
 ![Image](https://github.com/user-attachments/assets/7789957e-3dc3-4bc6-8c58-bf04f6be2266)
